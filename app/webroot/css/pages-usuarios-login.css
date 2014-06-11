@@ -1,0 +1,60 @@
+div#usuarios-login fieldset {
+	width: 19em;
+	position: absolute;
+	bottom: -.5em;
+	right: 1em;
+	border: 1px solid #4F6500;
+	background-color: transparent;
+	margin: 0 0 1.5em 0;
+	padding: 0;
+}
+div#usuarios-login fieldset ol {
+	padding: 0.25em 1em 0 0;
+}
+div#usuarios-login fieldset li {
+	list-style: none;
+}
+div#usuarios-login label {
+	float: left;
+	width: 4em;
+	margin-right: 1em;
+	font-weight: bold;
+	color: #fff;
+}
+div#usuarios-login .submit input[type=submit], div#usuarios-login .submit button {
+	margin-left: 5em;
+	font-weight: bold;
+	color: #183B03;
+}
+
+div#usuarios-login fieldset input[type=text],div#usuarios-login fieldset input[type=password] {
+	width: 9em;
+}
+
+div#usuarios-login input#UsuarioUsuario {
+	padding-right: 17px;
+	width: 8em;
+	background-image: url(../img/famfamfam/user.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+div#usuarios-login input#UsuarioSenha {
+	padding-right: 17px;
+	width: 8em;
+	background-image: url(../img/famfamfam/key.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+div#usuarios-login label:after,
+div#usuarios-login legend:after {
+	content: none;
+}
+
+div#usuarios-login div.message {
+	color: #fc3;
+	font-weight: bold;
+	margin-top: .75em;
+	text-transform: uppercase;
+	font-size: 90%;
+}

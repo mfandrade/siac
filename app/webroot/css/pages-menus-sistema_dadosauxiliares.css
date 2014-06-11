@@ -1,0 +1,12 @@
+div#menus-sistema_dadosauxiliares .view-content a.button {
+	font-size: 90%;
+	width: 12em;
+}
+div#menus-sistema_dadosauxiliares .view-content span.info {
+	float: left;
+	font-size: 100%;
+	font-style: italic;
+	color: #666;
+	width: 15em;
+	display: block;
+}

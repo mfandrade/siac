@@ -1,0 +1,129 @@
+html {
+	background: #030 url(../img/logo-siac.png) no-repeat fixed center center;
+}
+body {
+	font-size: 95%;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/screen.png);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+strong {
+	border-bottom: 0 !important;
+	color: #333;
+}
+em {
+	font-style: normal;
+	border-bottom: 1px dotted #333;
+}
+ol,ul {
+	text-align: left;
+}
+optgroup {
+	font-weight: bold;
+	border-top: 1px solid #000;
+}
+option {
+	font-weight: normal;
+}
+
+/* ===  especiais para elementos de pagina ============================= */
+div.required label:after,
+fieldset.required legend:after {
+	content: url(../img/asterisco.png);
+}
+.error-message {
+	font-weight: bold;
+	color: #f60;
+	font-size: 90%;
+	text-transform: uppercase;
+	letter-spacing: -.05em;
+}
+
+/* === estilização de mensagens de flash =============================== */
+div#flash {
+	padding: .25em 0;
+	font-size: 105%;
+	text-transform: uppercase;
+	letter-spacing: -.05em;
+	color: #900;
+	font-weight: bold;
+}
+div#flash img {
+	vertical-align: middle;
+	margin-bottom: .25em;
+}
+#flash.info {
+	background-color: #f0f0ff;
+	color: #009;
+}
+#flash.warning {
+	background-color: #ffffe3;
+	color: #f60;
+}
+#flash.error {
+	background-color: #fff0f0;
+	color: #900;
+}
+#flash.success {
+	background-color: #efe;
+	color: #090;
+}
+div#divProprietarios table tr td span.highlight {
+	background-color: #cf9 !important;
+}
+div#divProprietarios table tr td {
+	border: 0;
+	border-right: 1px solid #ccc;
+}
+
+/* === aparência uniforme de botões e links como botões ================ */
+a.button, .buttons button {
+    display: block;
+    float: left;
+    margin: 0 7px 0 0;
+    background-color: #f5f5f5;
+    border: 2px solid #dedede;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+
+    font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size: 100%;
+    line-height: 130%;
+    text-decoration: none;
+    font-weight: bold;
+    color: #565656;
+    cursor: pointer;
+    padding: 5px 10px 6px 7px; /* Links */
+}
+a.button:active, .buttons button:active {
+	background-color: #dedede;
+}
+.buttons button {
+    width: auto;
+    overflow: visible;
+    padding: 4px 10px 3px 7px; /* IE6 */
+}
+.buttons button[type] {
+    padding: 5px 10px 5px 7px; /* Firefox */
+    line-height: 17px; /* Safari */
+}
+*:first-child+html button[type] {
+    padding:4px 10px 3px 7px; /* IE7 */
+}
+.buttons button img, .buttons a img {
+    margin: 0 3px -3px 0 !important;
+    padding: 0;
+    border: none;
+    width: 16px;
+    height: 16px;
+}
+
+input[type=text][disabled=disabled] {
+	color: #000;
+}

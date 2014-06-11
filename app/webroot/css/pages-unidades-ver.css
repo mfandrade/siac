@@ -1,0 +1,32 @@
+form#UnidadeProprietarioId-inplaceeditor {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.editor_ok_button, .editor_cancel_button {
+	height: 24px;
+	margin-top: 1px;
+	font-weight: bold;
+	font-size: 80%;
+}
+.editor_ok_button {
+	/*color: #183b03;*/
+	color: #060;
+}
+.editor_cancel_button {
+	color: #600;
+}
+input.editor_field {
+	width: 20em;
+	/*height: 24px;*/
+	/*font-size: 90%;*/
+	margin: 0;
+	padding: 0;
+}
+span#UnidadeProprietarioId {
+	width: 27em;
+	display: block;
+	float: left;
+	cursor: pointer;
+}

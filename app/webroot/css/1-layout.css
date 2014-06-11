@@ -1,0 +1,77 @@
+fieldset {
+	float: left;
+	clear: both;
+	width: 100%;
+	position: relative;
+	padding: 0 0 1.5em 0;
+	margin: 0 0 -1.5em 0;
+}
+
+legend {
+	margin-left: 1em;
+	padding: 0;
+}
+
+legend span {
+	position: absolute;
+	left: 0.74em;
+	top: 0;
+	margin-top: 0.5em;
+}
+
+fieldset ol {
+	padding: 2.5em 1em 0 1em;
+}
+
+fieldset li {
+	float: left;
+	clear: left;
+	width: 100%;
+	padding-bottom: 1em;
+}
+
+label {
+	float: left;
+	width: 14em;
+	margin-right: 1em;
+}
+
+fieldset.buttons {
+	float: none;
+	width: auto;
+	padding-top: 1.5em;
+	padding-left: 18em; /* porque 18 eu não sei, mas vide o estilo de botões */
+	/*margin-left: -5em ; /* compensa o alinhamento do botao, nao sei porque */
+	top: 1.5em;
+}
+
+fieldset fieldset.group {
+	margin-bottom: -2.5em;
+}
+
+fieldset fieldset.group legend {
+	margin-left: 0;
+}
+
+fieldset fieldset.group ol {
+	position: relative;
+	top: -1.5em;
+	margin: 0 0 0 15em;
+	padding: 0;
+}
+
+fieldset fieldset.group label {
+	float: none;
+	width: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: -1.2em;
+	margin-left: 1.2em;
+}
+
+/* posicionamento os botoes de navegacao em listagens */
+div#navigator {
+	margin-left: 18em;
+	margin-top: 0.5em;
+	float:left;
+}

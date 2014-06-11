@@ -1,0 +1,70 @@
+div#unidades-index #UnidadeId {
+	width: 12.5em;
+	float: left;
+}
+div#unidades-index #ProprietarioNome {
+	width: 12em;
+	float: left;
+}
+div#unidades-index #btnVisualizar,
+div#unidades-index #btnListar {
+	margin-left: .5em;
+	width: 6em;
+	height: 26px;
+	font-weight: bold;
+	font-size: 90%;
+	color: #183b03;
+}
+div#unidades-index label {
+	width: 10em;
+}
+
+div#unidades-index #divProprietarios {
+	margin-left: 11em;
+}
+div#unidades-index li > span { /* "OU" */
+	margin-left: 11em;
+	font-style: italic;
+	font-weight: bold;
+}
+div#unidades-index #divProprietarios > div {
+	height: 10em;
+	width: 30em;
+	overflow: auto;
+}
+div#unidades-index #divProprietarios > div table tr:hover {
+	background-color: #ffa;
+}
+div#unidades-index #divProprietarios > div table td a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #060;
+}
+div#unidades-index #divProprietarios > div table td a:hover {
+	color: #900;
+}
+div#unidades-index #divProprietarios > div table td:first-child {
+	border: 0;
+/*	border-right: 1px solid #363;*/
+}
+div#unidades-index #divProprietarios > div table th:first-child {
+	border: 0;
+/*	border-right: 1px solid #fff;*/
+}
+div#unidades-index #divProprietarios > div table th {
+	color: #fff;
+	font-weight: bold;
+	background-color: #4F6500;
+	height: .25em !important;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+div#unidades-index #divProprietarios > div table {
+	border: 0;
+	font-size: 80%;
+	width: 100%;
+}
+div#unidades-index #divProprietarios hr {
+	width: 30em !important;
+	margin: 0;
+}

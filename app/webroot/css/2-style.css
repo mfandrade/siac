@@ -1,0 +1,45 @@
+.view-content {
+    border-style: none;
+    border-top: 2px solid #ccc;
+    background-color: #F8FEE9; /* Environment-Friendly */
+}
+fieldset.view-content ol li {
+    list-style: none;
+}
+.view-content legend span {
+    color: #4F6500;
+    font-weight: bold;
+    letter-spacing: -.075em;
+    text-transform: uppercase;
+    font-size: 135%;
+}
+.view-content h2 {
+    color: #4F6500;
+    font-size: 150%;
+    letter-spacing: -.075em;
+    text-transform: uppercase;
+
+    margin: 0;
+    padding: 0.5em 0.5em 0.5em 0.74em;
+    text-align: left;
+}
+div#content fieldset.buttons { /* um fundo de destaque para os botões */
+    border-style: none;
+    background-color: transparent;
+    background-image: url(../img/b-trans-50.png);
+}
+.view-content label {
+    color: #555;
+}
+.view-content fieldset fieldset {
+    border-style: none;
+    background-color: transparent;
+    background-image: none;
+}
+fieldset.view-content fieldset legend {
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 100%;
+    color: #555;
+}

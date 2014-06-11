@@ -1,0 +1,35 @@
+/* coloca o divInfo do ajaxgerarboletos também */
+div#divInfo,
+div#divLoading {
+    width: 30em;
+    margin: 0;
+    margin-left: 10em;
+    padding: 0 0 3em 3em;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+div#divInfo { /* não sei porque esta diferença, mas está bom */
+    margin-top: 1.25em;
+}
+div#divInfo img,
+div#divLoading img {
+    position: relative;
+    margin-left: -3em;
+    left: 0;
+    display: block;
+    float: left;
+}
+
+div#divInfo em,
+div#divLoading em
+div#divInfo strong,
+div#divLoading strong {
+    font-weight: inherit;
+    font-style: inherit;
+    border-bottom: 1px #999 dotted;
+}
+
+div#lancamentos-gerarboletos fieldset.buttons { /* idem ao acima */
+    margin-top: -1.5em;
+}
